@@ -1,0 +1,41 @@
+.square {
+    width: 500px;
+    height: 210px;
+    background-color: #383B40;
+    margin: 110px 0px;
+    text-align: left;
+    
+}
+.rectangle {
+    width: 180px;
+    height: 80px;
+    background-color: #383b80;
+    margin: 30px auto;
+
+}
+.python {
+    color: #d3d3d3;
+    text-align: left;
+    font-size: 20px;
+    font-family: Consolas;
+
+}
+.c{
+    color: #c678dd;
+}
+.key {
+    text-size-adjust: 8;
+}
+.green {
+    color: yellowgreen;
+}
+.button {
+    border: none;
+    padding: 15px 32px;
+    text-align: auto;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

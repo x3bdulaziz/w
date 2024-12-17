@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeQuiz - الصفحة الرئيسية</title>
+    <link rel="icon" type="image/x-icon" href="CodeQuiz.jpg">
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+
+
+    <style>
+        /* إعدادات التصميم الأساسية */
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: center;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #003366;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        /* تصميم خانات التعريف باللغات */
+        .languages {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .language-box {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 30%;
+            min-width: 250px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .language-box:hover {
+            transform: translateY(-5px);
+        }
+        .language-box img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 15px;
+        }
+        .language-box h2 {
+            font-size: 1.5em;
+            color: #003366;
+            margin-bottom: 10px;
+        }
+        .language-box p {
+            font-size: 1em;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .language-box a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #003366;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .language-box a:hover {
+            background-color: #002244;
+        }
+        /* تصميم زر التواصل مع خدمة العملاء */
+        .contact-button {
+            display: inline-block;
+            padding: 12px 30px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #0056b3;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 30px;
+        }
+        .contact-button:hover {
+            background-color: #004494;
+        }
+        .heading {
+    background: #343A40;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+    padding: 20px;
+    ;
+}
+    </style>
+</head>
+<body>
+
+
+<div class="container">
+    <h1 class="heading" >مرحباً بكم في CodeQuiz</h1>
+    
+    <p>اختبر معرفتك في لغات البرمجة مع CodeQuiz. اختر من بين اختبارات مختلفة في PHP، Python، و Java!</p>
+
+    <p>منصة اختبار البرمجة الشامله :-CodeQuize"</p>
+    <p> تحدى مهاراتك بمستواك البرمجي من خلال اختبارات ممتعه وتفاعليه.</p>
+    <!-- خانات التعريف باللغات -->
+    <div class="languages">
+        <div class="language-box">
+            <img src="pyhton(2).webp">
+            <h2>ما هي لغة Python؟</h2>
+            <p>لغة Python هي لغة برمجة عالية المستوى تُستخدم في تطوير الويب، علوم البيانات، الذكاء الاصطناعي، وتطبيقات سطح المكتب.</p>
+            <a href="python-test.html">ابدا الاختبار</a>
+        </div>
+
+        <div class="language-box">
+            <img src="java.png" >
+            <h2>ما هي لغة Java؟</h2>
+            <p>لغة Java هي لغة برمجة شائعة تُستخدم لتطوير تطبيقات الويب، تطبيقات الهواتف الذكية، وخدمات الأنظمة الأساسية.</p>
+            <a href="java-test.html">ابدا الاختبار</a>
+        </div>
+
+        <div class="language-box">
+            <img src="php.jpeg" >
+            <h2>ما هي لغة PHP؟</h2>
+            <p>لغة PHP هي لغة برمجة تُستخدم بشكل أساسي لتطوير تطبيقات الويب، وهي شائعة لبناء مواقع تفاعلية وسريعة.</p>
+            <a href="php-test.html">ابدا الاختبار</a>
+        </div>
+    </div>
+    
+
+    <!-- زر التواصل مع خدمة العملاء -->
+    <a href="call_center.html" class="contact-button">اوقات عمل خدمة العملاء</a>
+    <a href="mailto: contect@CodeQuiz.com" class="contact-button">تواصل معنا </a>
+
+</div>
+
+
+
+
+
+</body>
+</html>
